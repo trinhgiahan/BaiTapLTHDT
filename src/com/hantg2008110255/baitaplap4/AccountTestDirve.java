@@ -14,8 +14,10 @@ public class AccountTestDirve {
         Customer customer;
         customer=new Customer();
 
-        customer.getName();
-        customer.getAddress();
+       customer.getName();
+       customer.getAddress();
+       customer.showCustomer();
+
 
         Employee employee;
         employee = new Employee();

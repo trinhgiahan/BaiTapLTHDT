@@ -1,13 +1,22 @@
 package com.hantg2008110255.baitaplap4;
-
-public class Employee {
+import java.util.Scanner;
+class Employee {
+    String Name;
+    String Slary;
     String getName(){
-        System.out.println("Trịnh Gia Hân");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập tên NV");
+        Name = sc.nextLine();
         return null;
     }
     String getSalary(){
-        System.out.println("Lương Tháng 10 : 50.000.000đ");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập Lương Nv");
+        Slary = sc.nextLine();
         return null;
+    }
+    void showEmloyee(){
+        
     }
     
 }
