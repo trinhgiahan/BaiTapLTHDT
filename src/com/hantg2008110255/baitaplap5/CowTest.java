@@ -7,7 +7,7 @@ public class CowTest {
         System.out.println("tuổi : "+cow.age);
         cow = new Cow(5.9);
         System.out.println("cân Nặng : "+cow.weight);
-        cow= new Cow(4.9, 1);
+        cow= new Cow(15, 3);
         System.out.println("Tuổi : "+cow.age);
         System.out.println("Cân Nặng : "+cow.weight);
         
