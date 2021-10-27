@@ -11,9 +11,9 @@ public class AnimalTestDrive {
         System.out.println("6.Hippo Iformation");
         System.out.println("========END MENU========");
         System.out.println("Hãy chọn một chức năng");
-        Scanner bienNhap= new Scanner(System.in);
-        int giaTriNhap = bienNhap.nextInt();
-        switch(giaTriNhap){
+        Scanner sc = new Scanner(System.in);
+        int information = sc.nextInt();
+        switch(information){
             case 1 :fileDog();;break;
             case 2 :fileWoft();;break;
             case 3 :fileLion();;break;
