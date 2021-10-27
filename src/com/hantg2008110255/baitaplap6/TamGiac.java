@@ -5,6 +5,7 @@ public class TamGiac {
     int chieu_Cao;
     int xoay_Bao_nhieu_do;
 
+
     TamGiac(String b,int c,int a){
         phat_Am_thanh = b;
         xoay_Bao_nhieu_do = a;
