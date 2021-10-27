@@ -2,14 +2,14 @@ package com.hantg2008110255.baitaplap7.AnimalSlimulator;
 import java.util.Scanner;
 public class AnimalTestDrive {
     public static void main(String[] args) {
-        System.out.println("==========MENU==========");
+        System.out.println("==========AnimalSimulator==========");
         System.out.println("1.Dog Imformation ");
         System.out.println("2.Woft Iformation ");
         System.out.println("3.Lion Iformation");
         System.out.println("4.Cat Iformation");
         System.out.println("5.Tiger Iformation");
         System.out.println("6.Hippo Iformation");
-        System.out.println("========END MENU========");
+        System.out.println("========       END         ========");
         System.out.println("Hãy chọn một chức năng");
         Scanner sc = new Scanner(System.in);
         int information = sc.nextInt();
