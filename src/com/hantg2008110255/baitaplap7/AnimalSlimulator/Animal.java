@@ -31,6 +31,7 @@ public class Animal {
         System.out.println("Mức độ đói");
         
     }
+  
         
     
     

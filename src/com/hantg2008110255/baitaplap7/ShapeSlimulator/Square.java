@@ -4,7 +4,8 @@ public class Square extends Shape {
     int height;
     int width;
     int i;
-    Square(int h,int w){
+    public Square(String s,int w,int h){
+        super(s);
         height = h;
         width = w;
 
@@ -17,11 +18,12 @@ public class Square extends Shape {
             }
             System.out.println("");
         }
+         {
+            super.playSound();
+           
+       }
     }
-    @Overdive
-    protected void playSound(){
-       System.out.println("Đang phát nhạc từ file Square.AIF");
-    }
+   
         
     
 

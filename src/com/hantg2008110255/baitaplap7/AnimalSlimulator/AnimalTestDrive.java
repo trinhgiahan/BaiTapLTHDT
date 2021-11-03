@@ -48,7 +48,7 @@ public class AnimalTestDrive {
         woft.sleep();
         woft.food();
         woft.hunger();
-            woft.behavior();
+        woft.behavior();
             }
     protected static void fileLion(){
         Lion lion = new Lion( 8, 4 , 6 , 8, 2) ;
@@ -99,7 +99,7 @@ public class AnimalTestDrive {
         tiger.sleep();
         tiger.food();
         tiger.hunger();
-     tiger.behavior();
+        tiger.behavior();
                             } 
                             
                    
